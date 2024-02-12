@@ -12,7 +12,7 @@ body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }
-/* ===common=== */
+/* ====================common==================== */
 a {
   text-decoration: none;
 }
@@ -59,7 +59,7 @@ a {
 .break-all {
   word-break: break-all;
 }
-/* ===header=== */
+/* ====================header==================== */
 .header {
   background: #fffcf4;
 }
@@ -110,7 +110,7 @@ a {
 .header .action {
   margin-left: 49px;
 }
-/* ===hero=== */
+/* ====================hero==================== */
 .hero {
   padding: 56px 0 65px;
   background: #fffcf4;
@@ -261,7 +261,7 @@ a {
 .hero .stats strong:nth-child(2) {
   margin-left: 28px;
 }
-/* ===popular=== */
+/* ====================popular==================== */
 .popular {
   padding: 200px 0;
 }
@@ -373,4 +373,68 @@ a {
 }
 .popular .course-item .btn-book:hover {
   background-color: var(--primary-color);
+}
+/* ====================feedback==================== */
+.feedback {
+  margin-top: 135px;
+  padding: 96px 0;
+  background: #2e2100;
+}
+.feedback-item {
+  display: flex;
+}
+.feedback-item .avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+.feedback-item .info .member-name {
+  margin-top: 18px;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.4rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f7f7f7;
+}
+.feedback-item .info .desc {
+  margin-top: 4px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #bfbcb2;
+}
+.feedback-item .dots {
+  display: flex;
+  margin-top: 28px;
+  gap: 6px;
+}
+.feedback-item .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #634700;
+  cursor: pointer;
+}
+.feedback-item .dot.active {
+  background: var(--primary-color);
+  cursor: default;
+}
+.feedback-item .content {
+  width: 66%;
+  margin-left: auto;
+}
+.feedback-item block-quote {
+  font-size: 2.6rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 4rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
 }
